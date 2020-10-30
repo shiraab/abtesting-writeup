@@ -2,13 +2,66 @@
 
 <html>
   <head>
-    <title>INSERT TITLE HERE!</title>
+    <title>A/B Testing</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous">
     <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
     <meta content="width=device-width, initial-scale=1" name="viewport" />
   </head>
 
   <body>
-    <!-- TODO: put your HTML code here! -->
+    <span id="title-section">
+      <h1>/|     Lines & Borders     |/</h1>
+      <h2>An A/B Testing Experiment</h2>
+    </span>
+    <div id="main">
+      <p>What differentiates a designer from an artist? Many people have written
+        at length about this dilemma, but one crucial difference is their goals:
+        design is unique in that it often has a specific <i>objective</i>, and therefore
+        a crucial part of design is evaluation.
+      </p>
+      <p>How do you know if a design is successful, or if you've reached your goal? One way
+        to evaluate a design is by comparing it to another. Comparative design evaluation is
+        called an <b>A/B Test</b>, and it represents a major way in which designs and layouts
+        are evaluated! An A/B test is actually part of the method of an experiment – it's the way
+        we understand if a hypothesis – namely, a design decision – has any significant effect on user
+        behavior.
+      </p>
+      <h3>My Experiment</h3>
+      <span class="two-column">
+        <img src="./version-a.png" alt="version a"/>
+        <img src="./version-b.png" alt="version b"/>
+      </span>
+      <span class="two-column">
+        <p>Version A</p>
+        <p>Version B</p>
+      </span>
+      <p>I did an A/B test on a mock cactus e-commerce site. There are a few crucial actions that users
+        may take while navigating the site: clicking on one of four buttons to add a specific cactus set
+        to their cart, navigating to their cart, or returning to the main commerce page.
+      </p>
+      <h4>Question</h4>
+      <p>How does <b>differentiation of discrete products</b> affect user behavior? I define differentiation
+        as the use of borders and backgrounds to set one product apart from another.</p>
+      <h4>Hypothesis</h4>
+      <p>Users will display less time to completion and a lower return rate upon introduction of rounded borders and semi-transparent
+        white backgrounds. Namely, the design with borders and backgrounds will perform better than the design
+        without borders or backgrounds.
+      </p>
+      <h3>Summary of process</h3>
+      <p>Using some complex routing, users were shown either the A or B version and instructed to fill their carts
+        with $150 worth of cacti.
+      </p>
+      <h3>Results</h3>
+      <div id="results-div">
+        <img src="./1x/Artboard 1.png" alt="infographic of test results"/>
+      </div>
+      <h3>Reflection</h3>
+      <p>This was an interesting way to evaluate a website – even if the results
+        are inconclusive!</p>
+    </div>
   </body>
 </html>
